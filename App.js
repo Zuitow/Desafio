@@ -42,13 +42,10 @@ export default function App() {
 
   // Função englobando para funcionamento do botão
   const handlePress = () => {
-
     visModal(true);
     const resultado = num1 / num2;
     const combustivel = resultado < 0.7 ? "Álcool" : "Gasolina";
     const compensa = "Compensa usar " + combustivel;
-   
-    
     setCombustivel(compensa);
   };
 
